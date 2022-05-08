@@ -1,0 +1,96 @@
+@media screen and (min-width: 768px) {
+    .navbar .container {
+      position: relative;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+    }
+    .navbar .container .navigasi ul {
+      position: absolute;
+      margin-left: -130px;
+    }
+    .navbar .container .navigasi ul .dropdown-item {
+      margin-left: 0px;
+    }
+    .firstSection {
+      margin-top: 100px;
+    }
+    .firstSection .container {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+    }
+    .firstSection .container .main {
+      text-align: left;
+      -webkit-box-ordinal-group: 2;
+          -ms-flex-order: 1;
+              order: 1;
+    }
+    .firstSection .container img {
+      -webkit-box-ordinal-group: 3;
+          -ms-flex-order: 2;
+              order: 2;
+      width: 373px;
+      height: 373px;
+      margin-left: 50px;
+    }
+    section.secondSection .container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+    }
+    section.secondSection .container .mainFirst {
+      width: 50%;
+    }
+    section.secondSection .container .mainSecond {
+      width: 50%;
+      margin-left: 50px;
+    }
+    section.sevenSection .container .row .infoContact {
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+    }
+    section.sevenSection .container .row .infoContact .main {
+      margin: 0px 30px 0 0;
+    }
+    section.sevenSection .container .row .infoForms .main-top .topSub {
+      margin: 10px 0;
+    }
+    section.sevenSection .container .row .infoForms {
+      display: block;
+      margin-top: -40px;
+    }
+    section.sevenSection .container .row .infoForms .main {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-bottom: 0px;
+    }
+    section.sevenSection .container .row .infoForms .main input:first-child {
+      margin-right: 20px;
+    }
+    section.sevenSection .container .row .infoForms textarea {
+      display: block;
+      margin: 20px 0;
+    }
+
+    section.sixthSection .container .carousel-inner .card {
+      width:45vmax;
+      height: 40vmin;
+      border-radius: 10px;
+      overflow: visible;
+    }
+  }

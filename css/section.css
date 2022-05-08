@@ -1,0 +1,381 @@
+/* first section */
+
+.firstSection {
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.firstSection .container {
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.firstSection .container .main {
+  margin-top: 50px;
+  text-align: center;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.firstSection .container .main p:first-child {
+  margin-bottom: -5px;
+}
+
+.firstSection .container .main h1 {
+  margin-bottom: -1px;
+}
+
+.firstSection .container .main button {
+  padding: 3px 16px;
+}
+
+.firstSection .container .main .deskripsiText {
+  text-align: justify;
+}
+
+.firstSection .container img {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  width: 70%;
+  height: 70%;
+}
+
+.firstSection .container img:hover {
+  -webkit-animation: puta .15s ease-in-out forwards;
+          animation: puta .15s ease-in-out forwards;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+/* end first section */
+
+/* second section */
+.secondSection {
+  margin-bottom: 100px;
+  margin-top: 0px;
+}
+
+.secondSection h1 {
+  padding-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.secondSection .container .mainFirst {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.secondSection .container .mainFirst .main-content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.secondSection .container .mainFirst .main-content .deskription-scor {
+  margin-top: -30px;
+  margin-bottom: 50px;
+}
+
+.secondSection .container .mainFirst .main-second-content {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 75px;
+}
+
+.secondSection .container .mainFirst .main-second-content .main-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+}
+
+.secondSection .mainSecond .main-content {
+  margin: 20px 0;
+}
+/* end second section */
+
+/* third section */
+
+section.thirdSection {
+  margin-bottom: 200px;
+  margin-top: 0px;
+}
+
+section.thirdSection h1 {
+  padding-top: 50px;
+}
+
+section.thirdSection .container {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.thirdSection .container .card {
+  margin: 15px 10px;
+}
+
+section.thirdSection .container .card .card-body {
+  margin-top: -25px;
+  margin-bottom: 25px;
+}
+
+section.thirdSection .container .card .card-body svg {
+  color: red;
+  font-weight: bold;
+}
+
+section.thirdSection .container .card:hover {
+  -webkit-animation: membesar .1s ease-in-out forwards;
+          animation: membesar .1s ease-in-out forwards;
+}
+
+/* end third section */
+
+/* fourth section */
+
+section.fourthSection {
+  margin-bottom: 200px;
+  margin-top: 0px;
+}
+
+section.fourthSection h1 {
+  margin-bottom: 50px;
+  padding-top: 40px;
+}
+
+section.fourthSection .container .row a {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+section.fourthSection .container .row div.col-6:hover {
+  -webkit-animation: membesar .1s ease-in-out forwards;
+          animation: membesar .1s ease-in-out forwards;
+}
+
+/*end  fourth section */
+
+/* fiveth section */
+
+section.fivethSection {
+  margin-bottom: 200px;
+  margin-top: 0px;
+  width: 100%;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.fivethSection p:hover {
+  -webkit-animation: membesar .1s ease-in-out forwards;
+          animation: membesar .1s ease-in-out forwards;
+}
+
+section.fivethSection p::-moz-selection {
+  background-color: #ff5151;
+  color: white;
+}
+
+section.fivethSection p::selection {
+  background-color: #ff5151;
+  color: white;
+}
+
+section.fivethSection h1:hover {
+  -webkit-animation: membesar .1s ease-in-out forwards;
+          animation: membesar .1s ease-in-out forwards;
+}
+
+section.fivethSection h1::-moz-selection {
+  background-color: #ff5151;
+  color: white;
+}
+
+section.fivethSection h1::selection {
+  background-color: #ff5151;
+  color: white;
+}
+
+section.fivethSection .hireButton:hover {
+  -webkit-animation: membesar .1s ease-in-out forwards;
+          animation: membesar .1s ease-in-out forwards;
+}
+
+/*end fiveth section */
+
+/* sixth section */
+
+section.sixthSection {
+  margin-bottom: 100px;
+  margin-top: 0px;
+  height: 400px;
+}
+
+section.sixthSection h1 {
+  margin-bottom: 50px;
+  padding-top: 40px;
+}
+
+section.sixthSection .container {
+  position: relative;
+}
+
+section.sixthSection .container .carousel-indicators {
+  position: absolute;
+  top: 300px;
+}
+
+section.sixthSection .container .carousel-indicators button {
+  background-color: maroon;
+}
+
+section.sixthSection .container .carousel-inner .card {
+  width:45vmax;
+  height: 250px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+section.sixthSection .container .carousel-inner .card img {
+  padding: 3px;
+  margin: 10px;
+}
+
+section.sixthSection .container .carousel-inner .card .main-item h6 {
+  margin-bottom: 4px;
+}
+
+section.sixthSection .container .carousel-inner .card .card-body p {
+  margin-top: -10px;
+}
+
+section.sixthSection .container .carousel-inner .card .card-body span svg {
+  color: brown;
+}
+
+/*end sixth section */
+/* seventh section */
+
+section.sevenSection {
+  margin-bottom: 75px;
+  margin-top: 0px;
+}
+
+section.sevenSection h1 {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+section.sevenSection .container .row .infoContact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section.sevenSection .container .row .infoContact .main {
+  margin: 0;
+}
+
+section.sevenSection .container .row .infoForms {
+  display: block;
+}
+
+section.sevenSection .container .row .infoForms .main {
+  display: block;
+  margin: 20px 0;
+}
+
+section.sevenSection .container .row .infoForms .main input {
+  margin: 20px 0;
+}
+
+section.sevenSection .container .row .infoForms textarea {
+  display: block;
+  margin: 20px 0;
+}
+/* end seventh section */
+
+/* footer  */
+footer .main svg:hover {
+  -webkit-animation: manggadang .1s ease-in-out forwards;
+          animation: manggadang .1s ease-in-out forwards;
+}
+
+/* end footer  */
+
